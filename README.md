@@ -27,9 +27,10 @@ at the [Institute for Social Research](http://www.isr.umich.edu/),  University o
 [@bradytwest](https://twitter.com/bradytwest) on Twitter.
 Website: http://www-personal.umich.edu/~bwest/
 
-Peter Lugtig is 
-Associate Professor at the Department of Methodology and Statistics
-in the School of Social and Behavioural Sciences, University of Utrecht.
+Peter Lugtig is Associate Professor at the Department of Methodology and Statistics
+in the School of Social and Behavioural Sciences, Utrecht University. 
+His interest in this project come from teaching courses on survey methodology 
+and frequent discussions with data users on whether and how to use survey weights in analyes 
 [@PeterLugtig](https://twitter.com/PeterLugtig) on Twitter.
 Website: http://www.peterlugtig.com/
 
@@ -463,7 +464,62 @@ that needs to be provided to data users to minimize the risk of analytic error
 due to a failure to account for complex sampling features.
 
 
+### Understanding Society:
+:star: :star: :star: :star: :star:
 
+**Funding**: Economic & Social Research Council (ESRC)
+
+**Data collection**
+* The Institute for Social and Economic Research (ISER), University of Essex (coordination)
+* NatCen Social Research (wave 1-5) - Great Britian interviews
+* Central Survey Unit of NISRA (wave 1-5)- Northern Ireland interviews
+* Kantar Public UK (wave 6 onwards)
+
+**Host**: The UK data archive: https://discover.ukdataservice.ac.uk/series/?sn=2000053
+
+**URL**: https://discover.ukdataservice.ac.uk/series/?sn=2000053
+
+**Rubrics:**
+**1. Can a survey statistician easily figure out how to declare the complex sampling features to survey analysis software 
+ for design-based analysis?** yes. See the link above. The stratification is well decribed, both for Understanding Society, 
+ and it's predecessor, The British Household Panel Study. The sample design is complex, as this study is longitudinal. 
+ The study inclused refreshment samples to increase sample sizes, include minorities, and new regions into the study. 
+ There are clear stratification variables available. As the study is a household study, no clustering is used.
+
+**2. Can an applied researcher easily figure out how to declare the complex sampling features to survey analysis software for design-based analysis?**
+Yes. The design of the study is highly complex however, and the applied researcher needs to have a very clear definition of what the target population of their survey exactly is. 
+Guidance is provided on what survey weights to use depending on the choice of the target population, but the description is technical. There is no execute summary of the survey design that is iuncluded. The sample design is also too complex for this.
+
+**3.Is everything that the data user needs to know about the complex sampling contained in one place?** 
+Yes, section 3.9 of the user documentation includes all information.
+
+**4.Are examples of specific syntax for performing correct design-based analyses provided?** 
+Yes. Example syntax for STATA is given.
+
+**5. Are examples of analyses need for addressing specific substantive questions provided?** 
+Yes and no. 
+The description is technical, and practical examples of the kind of questions researchers would want to answer using this data may help users to select the right set of weights.
+
+
+**6. bonus: What kinds of references are provided? The documentation includes many references to additional papers and technical reports written on the design and analysis of Understanding Society Data
+
+Score: 6/7
+
+
+
+### European Social Survey ###
+
+Funding:
+
+Data collection:
+
+Host: ICPSR
+
+URL: http://www.europeansocialsurvey.org/docs/methodology/ESS_weighting_data_1.pdf
+
+Rubrics:
+
+Score:
 
 
 
